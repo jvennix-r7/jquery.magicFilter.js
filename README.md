@@ -1,4 +1,4 @@
-## jquery.magicInput.js
+## jquery.magicInput.js [![Build Status](https://travis-ci.org/jvennix-r7/jquery.magicFilter.js.svg?branch=master)](https://travis-ci.org/jvennix-r7/jquery.magicFilter.js)
 
 `magicInput` is a jQuery 1.9+ plugin for implementing advanced, autocompleted filters in a text input with a focus on keyboard usability.
 
