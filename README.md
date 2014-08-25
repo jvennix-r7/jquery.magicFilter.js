@@ -21,6 +21,10 @@ You'll need nodejs and npm installed on your machine. To set up a build environm
     $ sudo npm i -g grunt-cli
     $ sudo npm i -g bower
 
+If you don't have phantomjs on your system, you'll need to install it. One easy way is to use the npm module:
+
+    $ sudo npm i -g phantomjs
+
 Then install all the dev dependencies:
 
     $ npm i
@@ -30,7 +34,7 @@ Now you can build:
 
     $ bower build
 
-Or run specs:
+To run specs:
 
     $ bower spec
 
