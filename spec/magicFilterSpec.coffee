@@ -1,4 +1,4 @@
-describe 'magicFilter', ->
+describe '$.magicFilter()', ->
 
-  it 'should be true', ->
-    expect(true).toEqual(true)
+  it 'should be defined on a jQuery object', ->
+    expect($(document).magicFilter).toBeDefined()

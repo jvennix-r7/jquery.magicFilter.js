@@ -1,18 +1,19 @@
-## jquery.magicInput.js [![Build Status](https://travis-ci.org/jvennix-r7/jquery.magicFilter.js.svg?branch=master)](https://travis-ci.org/jvennix-r7/jquery.magicFilter.js)
+## jquery.magicFilter.js [![Build Status](https://travis-ci.org/jvennix-r7/jquery.magicFilter.js.svg?branch=master)](https://travis-ci.org/jvennix-r7/jquery.magicFilter.js)
 
-`magicInput` is a jQuery 1.9+ plugin for implementing advanced, autocompleted filters in a text input with a focus on keyboard usability.
+`magicFilter` is a jQuery 1.9+ plugin for implementing advanced, autocompleted filters in a text input with a focus on keyboard usability.
 
 [Demos](about:blank).
 
 #### Usage
 
-    $('.my-div').magicInput
+    $('.my-div').magicFilter
       filterKeys: ['name', 'proto', 'port', 'host.name', 'host.addr']
       suggestValue: (key, partialValue) ->
 
+
 #### License
 
-`magicInput` is released under the MIT License.
+`magicFilter` is released under the MIT License.
 
 #### Development
 

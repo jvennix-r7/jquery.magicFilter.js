@@ -23,7 +23,7 @@ module.exports = (grunt) ->
         expand: true
         cwd: 'spec'
         src: ['**/**.coffee']
-        dest: 'build/specs/'
+        dest: 'build/spec/'
         ext: '.js'
 
     watch:
@@ -35,8 +35,9 @@ module.exports = (grunt) ->
         options:
           vendor: [
             'bower_components/jquery/dist/jquery.js'
+            'build/magicFilter.js'
           ]
-          specs: ['build/specs/**/**.js']
+          specs: ['build/spec/**.js']
           summary: true
 
   grunt.loadNpmTasks('grunt-contrib-coffee')
