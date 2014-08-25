@@ -1,11 +1,11 @@
 #
-# jquery.magicFilter v0.0.1
+#! jquery.magicFilter {VERSION}
 #
-# magicFilter is a jQuery 1.9+ plugin for implementing advanced, autocompleted
-# filters in a text input with a focus on keyboard usability.
+#! magicFilter is a jQuery 1.9+ plugin for implementing advanced, autocompleted
+#! filters in a text input with a focus on keyboard usability.
 #
-# Copyright: 2014 Rapid7
-# License: MIT
+#! Copyright: 2014 Rapid7
+#! License: MIT
 #
 
 # Allow optional use of define() requirejs-style AMD in brwoser.
