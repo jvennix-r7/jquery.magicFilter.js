@@ -1,14 +1,15 @@
-(window.define||((deps,fn) -> fn())) [], ->
+#
+# jquery.magicFilter v0.0.1
+#
+# magicFilter is a jQuery 1.9+ plugin for implementing advanced, autocompleted
+# filters in a text input with a focus on keyboard usability.
+#
+# Copyright: 2014 Rapid7
+# License: MIT
+#
 
-  #
-  # jquery.magicFilter v0.0.1
-  #
-  # magicFilter is a jQuery 1.9+ plugin for implementing advanced, autocompleted
-  # filters in a text input with a focus on keyboard usability.
-  #
-  # Copyright: 2014 Joe Vennix <joev@metasploit.com>
-  # License: MIT
-  #
+# Allow optional use of define() requirejs-style AMD in brwoser.
+(window.define || ((deps,fn) -> fn())) [], ->
 
   # Create and initialize autocomplete logic around an input
   buildFilter = (input, opts={}) ->
