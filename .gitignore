@@ -15,7 +15,4 @@ site/.bundle
 site/build
 # The content of this directory is maintained by bower, so don't track it.
 site/source/bower_components
-# Ignore Sass' cache
-site/.sass-cache
-# Ignore cache
-site/.cache
+

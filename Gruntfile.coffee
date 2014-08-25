@@ -15,7 +15,7 @@ module.exports = (grunt) ->
     pkg: pkgJson
 
     clean:
-      src: ['build', 'dist']
+      src: ['build']
 
     coffee:
       source:
