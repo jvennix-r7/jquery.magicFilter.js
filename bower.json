@@ -1,0 +1,22 @@
+{
+  "name": "jquery.magicFilter",
+  "version": "0.0.1",
+  "homepage": "https://github.com/jvennix-r7/jquery.magicFilter",
+  "authors": [
+    "joev@metasploit.com"
+  ],
+  "description": "A jQuery plugin for implementing advanced, autocompleted filters in a text input",
+  "moduleType": [
+    "amd"
+  ],
+  "dependencies": {
+    "jquery": "2.1.1"
+  },
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "spec"
+  ]
+}
